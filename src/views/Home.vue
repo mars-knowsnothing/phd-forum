@@ -1,7 +1,9 @@
 <!-- src/views/Home.vue -->
 <template>
   <div>
+    <!--
     <h1 class="text-2xl font-bold text-center">{{ $t('home.title') }}</h1>
+    -->
     <div class="mt-8 space-y-6">
       <p v-for="(paragraph, index) in content" :key="index" class="text-justify text-lg leading-relaxed">
         {{ paragraph }}
