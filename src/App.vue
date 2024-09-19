@@ -5,10 +5,6 @@
     <nav class="bg-gray-800 text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-          <!-- Logo 或品牌名称 -->
-          <div class="flex-shrink-0">
-            <a href="#" class="text-xl font-bold">北京大学科维理天文与天体物理研究所</a>
-          </div>
           <!-- 语言切换器 -->
           <div>
             <select v-model="$i18n.locale" class="bg-gray-800 text-white">

@@ -7,13 +7,14 @@
         {{ paragraph }}
       </p>
     </div>
-    <h4 class="text-xl font-bold mt-8">{{ $t('home.section_1_title') }}</h4>
+    <!-- <h4 class="text-xl font-bold mt-8">{{ $t('home.section_1_title') }}</h4> -->
     <div class="mt-8 space-y-6">
       <p v-for="(paragraph, index) in section_1_content" :key="index" class="text-justify text-lg leading-relaxed">
         {{ paragraph }}
       </p>
     </div>
-    <h4 class="text-xl font-bold mt-8">{{ $t('home.section_2_title') }}</h4>
+    <!--
+        <h4 class="text-xl font-bold mt-8">{{ $t('home.section_2_title') }}</h4>
     <p v-for="(paragraph, index) in section_2_content" :key="index" class="text-justify text-lg leading-relaxed">
       {{ paragraph }}
     </p>
@@ -29,6 +30,8 @@
     <p v-for="(paragraph, index) in section_5_content" :key="index" class="text-justify text-lg leading-relaxed">
       {{ paragraph }}
     </p>
+    -->
+
   </div>
 </template>
 

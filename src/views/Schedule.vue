@@ -5,6 +5,14 @@
     <p v-for="(paragraph, index) in content" :key="index" class="text-justify text-lg leading-relaxed">
       {{ paragraph }}
     </p>
+    <h1 class="text-2xl font-bold">{{ $t('schedule.subTitle') }}</h1>
+    <ul>
+      <li v-for="(item, index) in schedule" :key="index" class="text-justify text-lg leading-relaxed">{{ item }}</li>
+    </ul>
+  </div>
+  
+  <div class="mt-8 space-y-6">
+   
   </div>
 </template>
   
@@ -14,6 +22,9 @@ export default {
   computed: {
     content() {
       return this.$i18n.messages[this.$i18n.locale].schedule.content;
+    },
+    schedule() {
+      return this.$i18n.messages[this.$i18n.locale].schedule.schedule;
     }
   }
 };

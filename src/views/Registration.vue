@@ -8,7 +8,7 @@
             </p>
             <!-- 如果有注册二维码，可以在此处添加 -->
             <div class="flex  mt-8">
-                <img src='/src/assets/qrcode.png' alt="qrcode" class="w-64 h-64" />
+                <img src='/src/assets/qrcode_new.jpg' alt="qrcode" class="w-64 h-64" />
             </div>
         </div>
     </div>

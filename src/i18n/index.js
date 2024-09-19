@@ -14,40 +14,42 @@ const messages = {
     home: {
       title: 'Notice of the 2024 Peking University International PhD Student Forum on Frontiers of Modern Astronomy',
       content: [
-        'As one of Peking University’s "Discipline Quality Year" activities, Peking University cordially invites graduate students in astronomy and astrophysics to participate in the 2024 Peking University International PhD Student Forum on Frontiers of Modern Astronomy, to be held from December 5th to 10th, 2024, at the Kavli Institute for Astronomy and Astrophysics (KIAA-PKU) at Peking University.',
-        'In recent years, astronomy in China has developed rapidly, with numerous advanced ground-based and space facilities in radio astronomy (FAST, TianMa, QTT), optical astronomy (LAMOST, WFST, CSST), and high-energy astrophysics (DAMPE, HXMT, LHAASO, EP, SVOM) either completed or under construction. This forum will cover topics such as radio astronomy, solar and planetary science, stars and the Galaxy, high-energy astrophysics, galaxies and cosmology, focusing on the latest scientific progress achieved by these facilities, and discussing how to effectively engage in related scientific research. The forum will also provide students with opportunities to present and exchange their research findings.',
-        'Peking University welcomes graduate students from home and abroad to participate in this forum. All lectures and discussions will be conducted in English. Organized by the Department of Astronomy and the Kavli Institute for Astronomy and Astrophysics at Peking University, this forum aims to promote academic exchanges among astronomy graduate students from different countries and regions and to cultivate students to conduct frontier scientific research in astronomy and astrophysics.',
+        'Peking University invites graduate students in astronomy and astrophysics to participate in the 2024 PKU International Forum for the Frontiers of Modern Astrophysics, to be held at the Kavli Institute for Astronomy and Astrophysics at Peking University (KIAA-PKU) from December 5-10, 2024. ',
+        'Astronomy in China has rapidly developed, with the cutting-edge ground and space-based facilities having been built or under development in radio (FAST, TianMa, QTT) and optical wavelengths (LAMOST, WFST, CSST) and in high-energy astrophysics (DAMPE, HXMT, LHAASO, EP, SVOM).  The Forum will cover Radio Astronomy, the Sun and Planets, Stars and the Milky Way, High Energy Astrophysics, and Galaxies and Cosmology, with an emphasis on recent scientific advances from these facilities and discussions of how to get involved.  The Forum will also offer students with an opportunity to present and discuss their own research.',
+        'PKU welcomes all domestic and international students to attend this forum.  All lectures and discussions will be in English.  This forum is organized by the Department of Astronomy (DoA) and the Kavli Institute for Astronomy and Astrophysics at Peking University, with the goal of promoting academic exchange among graduate students from different countries/regions and training students to do frontier research in astronomy and astrophysics.',
+        'Graduate students in astronomy from all countries/regions are welcome to attend.  All students are encouraged to present their own research works besides learning from the lectures.',
+        'China now offers visa-free travels, with time limits, for citizens of many countries, including Armenia, Australia, Austria, Belgium, France, Georgia, Germany, Hungary, Ireland, Italy, Malaysia, Netherlands, New Zealand, Poland, Serbia, Singapore, Spain, Switzerland, Thailand, UAE, plus many others.'
       ],
-      bannerText: 'PhD Forum',
+      bannerText: '2024 PKU International PhD Student Forum for the Frontiers of Modern Astronomy',
     },
     registration: {
       title: 'Registration Method',
       content: [
-        'Registration for the 2024 Peking University International PhD Student Forum on Frontiers of Modern Astronomy will be open from September 15th to October 20th, 2024, or until the quota is filled. The forum is limited to 100 students. Participants should indicate whether they wish to give an oral presentation or a poster presentation. Those accepted for oral presentations will be notified by November 1st, 2024.',
-        'Forum Homepage: http://XXXX',
-        'Forum Venue: Lecture Hall, Kavli Institute for Astronomy and Astrophysics, Peking University',
+        'Registration for the 2024 PKU International Forum for the Frontiers of Astrophysics will remain open until October 20 or the slots are filled, with a limit of 100 students.  Participants should indicate whether they would like to present a talk or a poster.  Speakers will be notified by November 1, 2024.',
+        'Forum Homepage: https://phd-forum-2024.kiaa-pku.cn/',
+        'Forum Venue: KIAA-PKU Auditorium',
         'Forum Dates: December 5th to December 10th, 2024',
-        'Registration Period: September 15th to October 20th, 2024',
-        'Registration Website: http://XXXX',
+        'Registration Period: September 19th to October 20th, 2024',
+        'Registration Website: https://www.wjx.cn/vm/PWcW4Z4.aspx#',
         'Registration QR Code:',
       ],
     },
     contact: {
       title: 'Contact Information',
       content: [
-        'All information about the forum, including visa application support, can be found on the website (http://XXXXX). If you have any questions, please contact:',
+        'All information regarding the forum, including the support for visa applications, can be found on the website (https://phd-forum-2024.kiaa-pku.cn/). Please direct any questions to:',
         // 将联系人信息作为数组
         [
           'Teacher Sun Min  Email: minsun1206@pku.edu.cn',
           'Teacher Xie Jing  Email: xiejing5166@pku.edu.cn',
         ],
-        'We look forward to seeing you at the 2024 Peking University International PhD Student Forum on Frontiers of Modern Astronomy!',
+        'We are looking forward to meeting you at 2024 PKU International PhD Student Forum for the Frontiers of Modern Astrophysics!',
       ],
     },
     fees: {
-      title: '参会费用说明',
+      title: 'Participation Fee',
       content: [
-        '本次论坛不收取注册费。交通和住宿费用自理（如确有需求，注册时请提出，本论坛将为来自发展中国家或地区的海外参与者提供有限的住宿安排）。论坛将为所有参会者提供每日午餐和晚餐。',
+        'There is no registration fee for this forum. Transportation and accommodation costs are at your own expense (limited support for accommodation will be provided to the oversea participants from developing countries/regions upon requests). The Forum will provide the daily lunch and dinner to all participants.',
       ],
     },
     venue: {
@@ -58,6 +60,22 @@ const messages = {
       link_2:  'http://kavli.pku.edu.cn/visitor-info/maps',
       link_3:  'http://kavli.pku.edu.cn/sites/default/files/Visit_Info/images/pku_map_direction.pdf',
     },
+    schedule: {
+      title: 'Forum Schedule',
+      content: [
+        'The Forum covers five topics: Radio Astronomy, the Sun and Planets, Stars and the Milky Way, High Energy Astrophysics, and Galaxies and Cosmology.',
+        'Each topic will include lectures from leading experts in the field.  Confirmed speakers include Jingxiu Wang (the Sun), Zhanwen Han (the stars), Zhen Cao and Zigao Dai (high energy astrophysics), Shengcai Shi and Di Li (radio astronomy), Yipeng Jing and Luis Ho (galaxies and cosmology), Ruobing Dong (the planets), Chao Liu (the Milky Way). These lectures will be followed by oral presentations and posters of graduate students.'
+      ],
+      subTitle: 'Preliminary Schedule:',
+      schedule: [
+        'December 4: Register',
+        'December 5: Galaxies and Cosmology;',
+        'December 6: High Energy Astrophysics;',
+        'December 7: Radio astronomy;',
+        'December 8: Stars and the Milky Way;',
+        'December 9: the Sun and Planets.'
+      ]
+    }
     // ... 其他翻译内容
   },
   zh: {
@@ -87,12 +105,12 @@ const messages = {
       ],
       section_3_title: '3.注册方式',
       section_3_content: [
-        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从9月15日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
-        '论坛主页：http://XXXX',
+        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从9月19日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
+        '论坛主页：https://phd-forum-2024.kiaa-pku.cn/',
         '论坛地点：北京大学科维理天文与天体物理研究所报告厅',
         '论坛日期：2024 年 12 月 5 日至 12 月 10 日',
-        '注册时间：2024 年 9 月 15 日至 2024 年 10 月 20 日',
-        '注册网站：http://XXXX',
+        '注册时间：2024 年 9 月 19 日至 2024 年 10 月 20 日',
+        '注册网站：https://www.wjx.cn/vm/PWcW4Z4.aspx#',
         '注册二维码：'
       ],
       section_4_title: '4.参会费用',
@@ -101,25 +119,36 @@ const messages = {
       ],
       section_5_title: '5.联系方式',
       section_5_content: [
-        '有关论坛的所有信息，包括签证申请支持，均可在网站（http://XXXXX）上找到。如有任何问题，请联系：',
+        '有关论坛的所有信息，包括签证申请支持，均可在网站（https://phd-forum-2024.kiaa-pku.cn/X）上找到。如有任何问题，请联系：',
         '孙敏老师  电子邮箱：minsun1206@pku.edu.cn',
         '谢静老师  电子邮箱：xiejing5166@pku.edu.cn'
       ],
-      bannerText: '博士生论坛',
+      bannerText: '2024 年北京大学现代天文学前沿国际博士生论坛',
     },
     schedule: {
       title: '论坛日程',
-      content: []
+      content: [
+        '论坛涵盖五个主题：射电天文学、太阳与行星、恒星与银河系、高能天体物理学、星系与宇宙学。每个主题都将包括该领域顶尖专家的特邀讲座，已确认的嘉宾有：汪景琇院士（太阳），韩占文院士（恒星），曹臻院士、戴子高教授（高能），史生才院士、李菂教授（射电），景益鹏院士、Luis Ho 院士（星系宇宙学），董若冰教授（行星），刘超研究员（银河系）。这些讲座之后将安排研究生的口头报告和海报展示。',
+      ],
+      subTitle: '初步日程',
+      schedule: [
+        '12月4日  报到；',
+        '12月5日  星系与宇宙学；',
+        '12月6日  高能天体物理；',
+        '12月7日  射电天文；',
+        '12月8日  恒星与银河系；',
+        '12月9日  太阳与行星'
+      ]
     },
     registration: {
       title: '注册方式',
       content: [
-        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从 9 月 15 日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
-        '论坛主页：http://XXXX',
+        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从 9 月 19 日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
+        '论坛主页：https://phd-forum-2024.kiaa-pku.cn/',
         '论坛地点：北京大学科维理天文与天体物理研究所报告厅',
         '论坛日期：2024 年 12 月 5 日至 12 月 10 日',
-        '注册时间：2024 年 9 月 15 日至 2024 年 10 月 20 日',
-        '注册网站：http://XXXX',
+        '注册时间：2024 年 9 月 19 日至 2024 年 10 月 20 日',
+        '注册网站：https://www.wjx.cn/vm/PWcW4Z4.aspx#',
         '注册二维码：',
       ],
     },
