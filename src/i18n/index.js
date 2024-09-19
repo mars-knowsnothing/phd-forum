@@ -12,7 +12,7 @@ const messages = {
       registration: 'Registration',
     },
     home: {
-      title: 'Notice of the 2024 Peking University International PhD Student Forum on Frontiers of Modern Astronomy',
+      title: 'Announcement of 2024 PKU International PhD Student Forum for the Frontiers of Modern Astrophysics',
       content: [
         'Peking University invites graduate students in astronomy and astrophysics to participate in the 2024 PKU International Forum for the Frontiers of Modern Astrophysics, to be held at the Kavli Institute for Astronomy and Astrophysics at Peking University (KIAA-PKU) from December 5-10, 2024. ',
         'Astronomy in China has rapidly developed, with the cutting-edge ground and space-based facilities having been built or under development in radio (FAST, TianMa, QTT) and optical wavelengths (LAMOST, WFST, CSST) and in high-energy astrophysics (DAMPE, HXMT, LHAASO, EP, SVOM).  The Forum will cover Radio Astronomy, the Sun and Planets, Stars and the Milky Way, High Energy Astrophysics, and Galaxies and Cosmology, with an emphasis on recent scientific advances from these facilities and discussions of how to get involved.  The Forum will also offer students with an opportunity to present and discuss their own research.',
