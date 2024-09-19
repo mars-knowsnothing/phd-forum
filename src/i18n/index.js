@@ -3,10 +3,11 @@ import { createI18n } from 'vue-i18n';
 
 const messages = {
   en: {
+    toggleLanguage:'切换到中文版',
     tabs: {
       home: 'Home',
       contact: 'Contact Information',
-      fees: 'Participation Fees',
+      // fees: 'Participation Fees',
       venue: 'Venue',
       schedule: 'Forum Schedule',
       registration: 'Registration',
@@ -29,6 +30,7 @@ const messages = {
       title: 'Registration Method',
       content: [
         'Registration for the 2024 PKU International Forum for the Frontiers of Astrophysics will remain open until October 20 or the slots are filled, with a limit of 100 students.  Participants should indicate whether they would like to present a talk or a poster.  Speakers will be notified by November 1, 2024.',
+        'There is no registration fee for this forum. Transportation and accommodation costs are at your own expense (limited support for accommodation will be provided to the oversea participants from developing countries/regions upon requests). The Forum will provide the daily lunch and dinner to all participants.',
         'Forum Homepage: https://phd-forum-2024.kiaa-pku.cn/',
         'Forum Venue: KIAA-PKU Auditorium',
         'Forum Dates: December 5th to December 10th, 2024',
@@ -51,9 +53,7 @@ const messages = {
     },
     fees: {
       title: 'Participation Fee',
-      content: [
-        'There is no registration fee for this forum. Transportation and accommodation costs are at your own expense (limited support for accommodation will be provided to the oversea participants from developing countries/regions upon requests). The Forum will provide the daily lunch and dinner to all participants.',
-      ],
+      content: [],
     },
     venue: {
       title: 'Venue Information',
@@ -82,10 +82,11 @@ const messages = {
     // ... 其他翻译内容
   },
   zh: {
+    toggleLanguage:'Switch to English Version',
     tabs: {
       home: '首页',
       contact: '联系方式',
-      fees: '参会费用',
+      // fees: '参会费用',
       venue: '会场',
       schedule: '论坛日程',
       registration: '注册方式',
@@ -147,6 +148,7 @@ const messages = {
       title: '注册方式',
       content: [
         '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从 9 月 19 日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
+        '本次论坛不收取注册费。交通和住宿费用自理（如确有需求，注册时请提出，本论坛将为来自发展中国家或地区的海外参与者提供有限的住宿安排）。论坛将为所有参会者提供每日午餐和晚餐。',
         '论坛主页：https://phd-forum-2024.kiaa-pku.cn/',
         '论坛地点：北京大学科维理天文与天体物理研究所报告厅',
         '论坛日期：2024 年 12 月 5 日至 12 月 10 日',
@@ -157,9 +159,7 @@ const messages = {
     },
     fees: {
       title: '参会费用说明',
-      content: [
-        '本次论坛不收取注册费。交通和住宿费用自理（如确有需求，注册时请提出，本论坛将为来自发展中国家或地区的海外参与者提供有限的住宿安排）。论坛将为所有参会者提供每日午餐和晚餐。',
-      ],
+      content: [],
     },
     contact: {
       title: '联系方式',
@@ -186,8 +186,8 @@ const messages = {
 };
 
 const i18n = createI18n({
-  locale: 'zh', // 默认语言，可改为 'en'
-  fallbackLocale: 'en',
+  locale: 'en', // 默认语言，可改为 'en'
+  fallbackLocale: 'zh',
   messages,
 });
 

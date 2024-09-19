@@ -7,10 +7,9 @@
         <div class="flex items-center justify-between h-16">
           <!-- 语言切换器 -->
           <div>
-            <select v-model="$i18n.locale" class="bg-gray-800 text-white">
-              <option value="en">English</option>
-              <option value="zh">中文</option>
-            </select>
+            <button @click="toggleLanguage" class="text-white">
+              {{ toggleLanguageText }}
+            </button>
           </div>
         </div>
       </div>
@@ -62,7 +61,7 @@ export default {
         { name: 'Home', route: '/', label: 'tabs.home' },
         { name: 'Schedule', route: '/schedule', label: 'tabs.schedule' },
         { name: 'Registration', route: '/registration', label: 'tabs.registration' },
-        { name: 'Fees', route: '/fees', label: 'tabs.fees' },
+        // { name: 'Fees', route: '/fees', label: 'tabs.fees' },
         { name: 'Contact', route: '/contact', label: 'tabs.contact' },
         { name: 'Venue', route: '/venue', label: 'tabs.venue' },
       ],
@@ -71,6 +70,20 @@ export default {
   computed: {
     bannerText() {
       return this.$i18n.messages[this.$i18n.locale].home.bannerText;
+    },
+    toggleLanguageText() {
+      // 根据当前语言，返回相应的提示文本
+      return this.$t('toggleLanguage');
+    },
+  },
+  methods: {
+    toggleLanguage() {
+      // 切换语言
+      if (this.$i18n.locale === 'zh') {
+        this.$i18n.locale = 'en';
+      } else {
+        this.$i18n.locale = 'zh';
+      }
     },
   }
 };
