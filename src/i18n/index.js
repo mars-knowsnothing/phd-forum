@@ -20,7 +20,10 @@ const messages = {
         'Graduate students in astronomy from all countries/regions are welcome to attend.  All students are encouraged to present their own research works besides learning from the lectures.',
         'China now offers visa-free travels, with time limits, for citizens of many countries, including Armenia, Australia, Austria, Belgium, France, Georgia, Germany, Hungary, Ireland, Italy, Malaysia, Netherlands, New Zealand, Poland, Serbia, Singapore, Spain, Switzerland, Thailand, UAE, plus many others.'
       ],
-      bannerText: '2024 PKU International PhD Student Forum for the Frontiers of Modern Astronomy',
+      bannerText: [
+        '2024 PKU International PhD Student Forum',
+        'For the Frontiers of Modern Astronomy'
+      ],
     },
     registration: {
       title: 'Registration Method',
@@ -123,7 +126,7 @@ const messages = {
         '孙敏老师  电子邮箱：minsun1206@pku.edu.cn',
         '谢静老师  电子邮箱：xiejing5166@pku.edu.cn'
       ],
-      bannerText: '2024 年北京大学现代天文学前沿国际博士生论坛',
+      bannerText: ['2024 年北京大学现代天文学前沿国际博士生论坛'],
     },
     schedule: {
       title: '论坛日程',
@@ -161,7 +164,7 @@ const messages = {
     contact: {
       title: '联系方式',
       content: [
-        '有关论坛的所有信息，包括签证申请支持，均可在网站(http://localhost:5173/contact)上找到。如有任何问题，请联系：',
+        '有关论坛的所有信息，包括签证申请支持，均可在网站(https://phd-forum-2024.kiaa-pku.cn/)上找到。如有任何问题，请联系：',
         // 将联系人信息作为数组
         [
           '孙敏老师  电子邮箱：minsun1206@pku.edu.cn',
@@ -172,7 +175,7 @@ const messages = {
     },
     venue: {
       title: '会场信息',
-      content_1: '本次活动将在北京大学科维理天文与天体物理研究所（KIAA-PKU）和腾讯会议线上同步举行。获取更多信息，请关注后续通知。北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
+      content_1: '本次活动将在北京大学科维理天文与天体物理研究所（KIAA-PKU）举行。获取更多信息，请关注后续通知。北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
       content_2: '北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
       content_3: '北京大学位置地图在此：',
       link_2:  'http://kavli.pku.edu.cn/visitor-info/maps',

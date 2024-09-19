@@ -18,14 +18,20 @@
 
     <!-- Banner 图像 -->
     <div class="relative">
-      <img src="./assets/banner.jpg" alt="Banner" class="w-full h-80 object-cover" />
+      <img src="./assets/banner.jpg" alt="Banner" class="w-full h-40 object-cover" />
       <!-- 可选：半透明背景层 -->
       <div class="absolute inset-0 bg-black opacity-50"></div>
       <!-- 文字层 -->
-      <div class="absolute inset-0 flex items-center justify-center">
-        <h1 class="text-white text-3xl md:text-5xl font-bold">{{ $t('home.bannerText') }}</h1>
+      <div class="absolute inset-0 flex flex-col items-center justify-center">
+        <h1 v-if="Array.isArray(bannerText)" class="text-white text-3xl md:text-5xl font-bold text-center">
+          {{ bannerText[0] }}
+        </h1>
+        <h2 v-if="Array.isArray(bannerText) && bannerText[1]" class="text-white text-xl md:text-3xl mt-4 text-center">
+          {{ bannerText[1] }}
+        </h2>
       </div>
     </div>
+
 
     <!-- 选项卡导航 -->
     <div class="bg-white shadow">
@@ -62,6 +68,11 @@ export default {
       ],
     };
   },
+  computed: {
+    bannerText() {
+      return this.$i18n.messages[this.$i18n.locale].home.bannerText;
+    },
+  }
 };
 </script>
 
