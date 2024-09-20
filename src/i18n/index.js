@@ -29,12 +29,12 @@ const messages = {
     registration: {
       title: 'Registration',
       content: [
-        'Registration for the 2024 PKU International Forum on the Frontiers of Astrophysics will remain open until October 20 or the slots are filled, with a limit of 100 students.  Participants should indicate whether they would like to present a talk or a poster.  Speakers will be notified by November 1, 2024.',
+        'Registration for the 2024 PKU International Forum on the Frontiers of Astrophysics will remain open until October 25th or the slots are filled, with a limit of 100 students.  Participants should indicate whether they would like to present a talk or a poster.  Speakers will be notified by November 1, 2024.',
         'There is no registration fee for this forum. Transportation and accommodation costs are at your own expense (limited support for accommodation will be provided to the oversea participants from developing countries/regions upon requests). The Forum will provide the daily lunch and dinner to all participants.',
         ['Forum Homepage:', 'https://phd-forum-2024.kiaa-pku.cn/'],
         'Forum Venue: KIAA-PKU Auditorium',
         'Forum Dates: December 5th to December 10th, 2024',
-        'Registration Period: September 20th to October 20th, 2024',
+        'Registration Period: September 20th to October 25th, 2024 (with limit to 100 participants)',
         ['Registration Website:','https://www.wjx.cn/vm/PWcW4Z4.aspx#'],
         'Registration QR Code:',
       ],
@@ -44,7 +44,7 @@ const messages = {
       content: [
         'All information regarding the forum can be found on the website:',
         ['https://phd-forum-2024.kiaa-pku.cn/'],
-        'If you have any questions, or need visa applications support, please contact: ',
+        'If you have any questions, or need visa application support, please contact: ',
         // 将联系人信息作为数组
         [
           'Ms. Sun Min, Email: minsun1206@pku.edu.cn',
@@ -59,7 +59,7 @@ const messages = {
     },
     venue: {
       title: 'Venue Information',
-      content_1: 'This forum will take place at the Kavli Institute for Astronomy and Astrophysics at Peking University (KIAA-PKU). To get further information, please pay attention to follow-up notifications. A PKU campus map showing the location of KIAA can be accessed here:',
+      content_1: 'This forum will take place at the Kavli Institute for Astronomy and Astrophysics at Peking University (KIAA-PKU), Yiheyuan Road 5, Haidian District, Beijing, China. To get further information, please pay attention to follow-up notifications. A PKU campus map showing the location of KIAA can be accessed here:',
       content_2:  'A PKU campus map showing the location of KIAA can be accessed here:',
       content_3: 'A map showing the location of PKU is here:',
       link_2:  'http://kavli.pku.edu.cn/visitor-info/maps',
@@ -74,11 +74,11 @@ const messages = {
       subTitle: 'Preliminary Schedule:',
       schedule: [
         'December 4: Arrival',
-        'December 5: Galaxies and Cosmology;',
-        'December 6: High Energy Astrophysics;',
-        'December 7: Radio astronomy;',
-        'December 8: Stars and the Milky Way;',
-        'December 9: the Sun and Planets.',
+        'December 5: Galaxies and Cosmology',
+        'December 6: High Energy Astrophysics',
+        'December 7: Radio astronomy',
+        'December 8: Stars and the Milky Way',
+        'December 9: Sun and Planets',
         'December 10: Departure'
       ]
     }
@@ -113,11 +113,11 @@ const messages = {
       ],
       section_3_title: '3.注册方式',
       section_3_content: [
-        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从9月20日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
+        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从9月20日开放至 10 月 25 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
         ['论坛主页：','https://phd-forum-2024.kiaa-pku.cn/'],
         '论坛地点：北京大学科维理天文与天体物理研究所报告厅',
         '论坛日期：2024 年 12 月 5 日至 12 月 10 日',
-        '注册时间：2024 年 9 月 20 日至 2024 年 10 月 20 日',
+        '注册时间：2024 年 9 月 20 日至 2024 年 10 月 25 日（100名，额满即止）',
         ['注册网站：','https://www.wjx.cn/vm/PWcW4Z4.aspx#'],
         '注册二维码：'
       ],
@@ -145,18 +145,18 @@ const messages = {
         '12月6日  高能天体物理；',
         '12月7日  射电天文；',
         '12月8日  恒星与银河系；',
-        '12月9日  太阳与行星'
+        '12月9日  太阳与行星；'
       ]
     },
     registration: {
       title: '注册方式',
       content: [
-        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从 9 月 20 日开放至 10 月 20 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
+        '2024 年北京大学现代天文学前沿国际博士生论坛的注册将从 9 月 20 日开放至 10 月 25 日或报名名额招满为止，限额 100 名学生。参与者应注明他们是否希望进行口头报告或海报展示。被接受口头报告的同学将于 2024 年 11 月 1 日前收到通知。',
         '本次论坛不收取注册费。交通和住宿费用自理（如确有需求，注册时请提出，本论坛将为来自发展中国家或地区的海外参与者提供有限的住宿安排）。论坛将为所有参会者提供每日午餐和晚餐。',
         ['论坛主页：','https://phd-forum-2024.kiaa-pku.cn/'],
         '论坛地点：北京大学科维理天文与天体物理研究所报告厅',
         '论坛日期：2024 年 12 月 5 日至 12 月 10 日',
-        '注册时间：2024 年 9 月 20 日至 2024 年 10 月 20 日',
+        '注册时间：2024 年 9 月 20 日至 2024 年 10 月 25 日（100名，额满即止）',
         ['注册网站：','https://www.wjx.cn/vm/PWcW4Z4.aspx#'],
         '注册二维码：',
       ],
@@ -181,7 +181,7 @@ const messages = {
     },
     venue: {
       title: '会场信息',
-      content_1: '本次活动将在北京大学科维理天文与天体物理研究所（KIAA-PKU）举行。获取更多信息，请关注后续通知。北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
+      content_1: '本次活动将在北京大学科维理天文与天体物理研究所（KIAA-PKU）举行，地址在北京市海淀区颐和园路5号。获取更多信息，请关注后续通知。北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
       content_2: '北京大学校园地图（标注了 KIAA 的位置）可在此获取：',
       content_3: '北京大学位置地图在此：',
       link_2:  'http://kavli.pku.edu.cn/visitor-info/maps',
