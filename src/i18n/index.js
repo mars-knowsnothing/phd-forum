@@ -168,7 +168,9 @@ const messages = {
     contact: {
       title: '联系方式',
       content: [
-        '有关论坛的所有信息均可在网站(https://phd-forum-2024.kiaa-pku.cn/)上找到。如有任何问题，或需要签证申请支持，请联系：',
+        '有关论坛的所有信息均可在网站上找到：',
+        ["https://phd-forum-2024.kiaa-pku.cn/"],
+        '如有任何问题，或需要签证申请支持，请联系：',
         // 将联系人信息作为数组
         [
           '孙敏老师, 电子邮箱：minsun1206@pku.edu.cn',
