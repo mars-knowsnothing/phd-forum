@@ -14,16 +14,18 @@
 </template>
   
 <script>
+import image1 from '../assets/image_1.jpg';
+import image2 from '../assets/image_2.jpg';
+import image3 from '../assets/image_3.jpg';
+import image4 from '../assets/image_4.jpg';
+
 export default {
   name: 'Footer',
   data() {
     return {
       images: [
         // 使用相对路径加载图片
-        '/assets/image_1.jpg',
-        '/assets/image_2.jpg',
-        '/assets/image_3.jpg',
-        '/assets/image_4.jpg',
+        image1,image2,image3,image4
       ],
     };
   },
