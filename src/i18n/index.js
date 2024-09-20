@@ -42,11 +42,13 @@ const messages = {
     contact: {
       title: 'Contact Information',
       content: [
-        'All information regarding the forum, including the support for visa applications, can be found on the website (https://phd-forum-2024.kiaa-pku.cn/). Please direct any questions to:',
+        'All information regarding the forum can be found on the website:',
+        ['https://phd-forum-2024.kiaa-pku.cn/'],
+        'If you have any questions, or need visa applications support, please contact: ',
         // 将联系人信息作为数组
         [
-          'Ms. Sun Min , Email: minsun1206@pku.edu.cn',
-          'Ms. Xie Jing , Email: xiejing5166@pku.edu.cn',
+          'Ms. Sun Min, Email: minsun1206@pku.edu.cn',
+          'Ms. Xie Jing, Email: xiejing5166@pku.edu.cn',
         ],
         'We are looking forward to meeting you at 2024 PKU International PhD Student Forum on the Frontiers of Modern Astronomy!',
       ],

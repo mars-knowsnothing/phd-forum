@@ -41,6 +41,12 @@ export default {
         return `<a href="mailto:${email}" class="text-blue-500 underline">${email}</a>`;
       });
 
+      // 转换 http 开头的 URL 为链接
+      const urlRegex = /(http[s]?:\/\/[^\s]+)/g;
+      text = text.replace(urlRegex, (url) => {
+        return `<a href="${url}" target="_blank" class="text-blue-500 underline">${url}</a>`;
+      });
+      
       return text;
     },
   },
