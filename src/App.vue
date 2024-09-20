@@ -50,17 +50,37 @@
       <router-view />
     </div>
     <!-- 底部 Footer -->
-    <Footer />
-  </div>
-</template>
+    <footer class="bg-gray-800 py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div class="flex justify-center">
+            <div class="w-full max-w-xs">
+              <img src="./assets/image_1.jpg" alt="Footer Image 1" class="rounded-lg object-cover" />
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-full max-w-xs">
+              <img src="./assets/image_2.jpg" alt="Footer Image 1" class="rounded-lg object-cover" />
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-full max-w-xs">
+              <img src="./assets/image_3.jpg" alt="Footer Image 1" class="rounded-lg object-cover" />
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-full max-w-xs">
+              <img src="./assets/image_4.jpg" alt="Footer Image 1" class="rounded-lg object-cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+</div></template>
 
 <script>
-import Footer from './components/Footer.vue';
 export default {
   name: 'App',
-  components: {
-    Footer,
-  },
   data() {
     return {
       tabs: [
@@ -96,5 +116,33 @@ export default {
 </script>
 
 <style>
-/* 可添加全局样式 */
-</style>
+footer {
+  border-top: 1px solid #ccc;
+}
+
+footer div div div img {
+  transition: transform 0.3s ease;
+}
+
+footer div div div img:hover {
+  transform: scale(1.1);
+}
+
+/* 确保图片容器保持 16:9 的比例 */
+.w-full {
+  width: 100%;
+}
+
+.max-w-xs {
+  max-width: 320px;
+  /* 您可以根据需要调整最大宽度 */
+  aspect-ratio: 16 / 9;
+  /* 固定 16:9 的比例 */
+}
+
+footer div div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* 确保图片完全覆盖容器 */
+}</style>
