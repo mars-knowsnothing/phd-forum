@@ -20,10 +20,10 @@ export default {
     return {
       images: [
         // 使用相对路径加载图片
-        '/src/assets/image_1.jpg',
-        '/src/assets/image_2.jpg',
-        '/src/assets/image_3.jpg',
-        '/src/assets/image_4.jpg',
+        './src/assets/image_1.jpg',
+        './src/assets/image_2.jpg',
+        './src/assets/image_3.jpg',
+        './src/assets/image_4.jpg',
       ],
     };
   },
