@@ -37,7 +37,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="flex">
           <router-link v-for="tab in tabs" :key="tab.name" :to="tab.route"
-            class="flex-1 py-4 text-center text-gray-700 hover:text-blue-500"
+            class="flex-1 py-4 text-center text-gray-700 hover:text-blue-500 text-xl font-bold"
             :class="$route.path === tab.route ? 'border-b-2 border-blue-500 text-blue-500' : ''">
             {{ $t(tab.label) }}
           </router-link>
@@ -49,12 +49,18 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <router-view />
     </div>
+    <!-- 底部 Footer -->
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from './components/Footer.vue';
 export default {
   name: 'App',
+  components: {
+    Footer,
+  },
   data() {
     return {
       tabs: [
