@@ -70,7 +70,8 @@ const messages = {
       link_2: 'http://kavli.pku.edu.cn/visitor-info/maps',
       link_3: 'http://kavli.pku.edu.cn/sites/default/files/Visit_Info/images/pku_map_direction.pdf',
       hotel:'Hotels around Peking University:',
-      hotel_link:'https://phd-forum-2024.kiaa-pku.cn/assets/hotels_en.pdf'
+      hotel_link:'src/assets/hotels_en.pdf',
+      hotel_link_text:'Download Information'
     },
     schedule: {
       title: 'Forum Schedule',
@@ -171,7 +172,8 @@ const messages = {
       link_2: 'http://kavli.pku.edu.cn/visitor-info/maps',
       link_3: 'http://kavli.pku.edu.cn/sites/default/files/Visit_Info/images/pku_map_direction.pdf',
       hotel:'北京大学附近酒店信息:',
-      hotel_link:'https://phd-forum-2024.kiaa-pku.cn/assets/hotels_zh.pdf'
+      hotel_link:'src/assets/hotels_zh.pdf',
+      hotel_link_text:'下载酒店信息'
     },
     // ... 其他翻译内容
   },

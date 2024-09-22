@@ -26,8 +26,8 @@
       </p>
 
       <p>
-        <a :href="$t('venue.hotel_link')" target="_blank"
-          class="text-blue-500 underline">{{ $t('venue.hotel_link') }}</a>
+        <a :href="$t('venue.hotel_link')" download target="_blank"
+          class="text-blue-500 underline">{{ $t('venue.hotel_link_text') }}</a>
       </p>
     </div>
   </div>
