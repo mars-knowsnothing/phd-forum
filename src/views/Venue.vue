@@ -20,6 +20,15 @@
         <a :href="$t('venue.link_3')" target="_blank"
           class="text-blue-500 underline">http://kavli.pku.edu.cn/visitor-info/maps</a>
       </p>
+
+      <p class="text-justify text-lg">
+        {{ $t('venue.hotel') }}
+      </p>
+
+      <p>
+        <a :href="$t('venue.hotel_link')" target="_blank"
+          class="text-blue-500 underline">{{ $t('venue.hotel_link') }}</a>
+      </p>
     </div>
   </div>
 </template>

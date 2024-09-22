@@ -28,7 +28,7 @@ const messages = {
         '2024 PKU International PhD Student Forum',
         'on the Frontiers of Modern Astronomy'
       ],
-      list_2_title: 'Scientific Organizing Committee:',
+      list_2_title: 'Local Organizing Committee:',
       list_2: 'Lili Liu, Shuyan Liu (Chair), Min Sun, Jing Xie, Jie Yao, Shuo Zhang'
     },
     registration: {
@@ -69,6 +69,8 @@ const messages = {
       content_3: 'A map showing the location of PKU is here:',
       link_2: 'http://kavli.pku.edu.cn/visitor-info/maps',
       link_3: 'http://kavli.pku.edu.cn/sites/default/files/Visit_Info/images/pku_map_direction.pdf',
+      hotel:'Hotels around Peking University:',
+      hotel_link:'https://phd-forum-2024.kiaa-pku.cn/assets/hotels_en.pdf'
     },
     schedule: {
       title: 'Forum Schedule',
@@ -168,6 +170,8 @@ const messages = {
       content_3: '北京大学位置地图在此：',
       link_2: 'http://kavli.pku.edu.cn/visitor-info/maps',
       link_3: 'http://kavli.pku.edu.cn/sites/default/files/Visit_Info/images/pku_map_direction.pdf',
+      hotel:'北京大学附近酒店信息:',
+      hotel_link:'https://phd-forum-2024.kiaa-pku.cn/assets/hotels_zh.pdf'
     },
     // ... 其他翻译内容
   },
