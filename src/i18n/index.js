@@ -81,9 +81,10 @@ const messages = {
       ],
       subTitle: 'Preliminary Schedule:',
       schedule: [
-        'December 4: Arrival',
-        'December 5: Galaxies and Cosmology',
-        'December 6: High Energy Astrophysics',
+        'December 5 - All Day : 北京大学中关新园1号楼大厅报到 （Registration at Zhongguanyuan Global Village, PKU）',
+        'December 5 - 15:30 : Wang Lingyu（Univ. of Groninggen）: KIAA colloquium: The evolution of massive galaxies - from a tripod approach of observations, simulations, and AI（地点：科维理所报告厅，欢迎参加！)',
+        'December 6 - Morning',
+        '9:00-9:10 开幕式',
         'December 7: Radio Astronomy',
         'December 8: Stars and the Milky Way',
         'December 9: Sun and Planets',
