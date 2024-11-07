@@ -66,7 +66,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月6日 上午",
+    "date": "12月6日 上午 主题1: 星系与宇宙学",
     "events": [
       {
         "time": "8:00-12:20",
@@ -86,7 +86,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月6日 下午",
+    "date": "12月6日 下午 主题1: 星系与宇宙学",
     "events": [
       {
         "time": "14:00-17:40",
@@ -106,7 +106,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月7日 上午",
+    "date": "12月7日 上午 主题2: 高能天体物理",
     "events": [
       {
         "time": "9:00-12:10",
@@ -124,7 +124,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月7日 下午",
+    "date": "12月7日 下午 主题2: 高能天体物理",
     "events": [
       {
         "time": "14:00-17:20",
@@ -141,7 +141,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月8日 上午",
+    "date": "12月8日 上午 主题3: 银河系与恒星",
     "events": [
       {
         "time": "9:00-12:10",
@@ -159,7 +159,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月8日 下午",
+    "date": "12月8日 下午 主题3: 银河系与恒星",
     "events": [
       {
         "time": "14:00-17:00",
@@ -177,7 +177,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月9日 上午",
+    "date": "12月9日 上午 主题4: 行星",
     "events": [
       {
         "time": "9:00-12:20",
@@ -196,7 +196,7 @@ export default defineComponent({
     ]
   },
   {
-    "date": "12月9日 下午",
+    "date": "12月9日 下午 主题5：太阳与射电天文",
     "events": [
       {
         "time": "14:00-17:10",
