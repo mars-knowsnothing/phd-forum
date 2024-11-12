@@ -165,7 +165,7 @@ export default defineComponent({
         "time": "14:00-17:00",
         "location": "科维理所报告厅",
         "sessions": [
-          { "time": "14:00-15:00", "description": "云南天文台韩占文院士（特邀报告）：TBD" },
+          { "time": "14:00-15:00", "description": "云南天文台韩占文院士（特邀报告）：Theory and Observations of Binary Stars" },
           { "time": "15:00-15:20", "description": "谢熠（Australian National University）：Carbon and Nitrogen Abundances for GALAH Giants: Identifying Red Clump Stars via The Cannon" },
           { "time": "15:20-15:50", "description": "茶歇" },
           { "time": "15:50-16:10", "description": "Haoyang YUAN（香港大学）：Exploring the Interplay of X-ray Emission and Chemical Abundances in Planetary Nebulae" },
