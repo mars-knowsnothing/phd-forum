@@ -118,8 +118,7 @@ export default defineComponent({
                 { "time": "10:20-10:50", "description": "茶歇" },
                 { "time": "10:50-11:10", "description": "Qingcang Shui（高能所）：Exploring Quasi-Periodic Oscillations in Black Hole X-ray Binaries: Applications of the Hilbert-Huang Transform Method and New Findings" },
                 { "time": "11:10-11:30", "description": "纪涛（香港大学）：Modelling Energetic Output From MAD Super-Eddington Accreting Supermassive Black Holes" },
-                { "time": "11:30-11:50", "description": "蒋宏轩（上海交大）：3D GRMHD Simulations of Tilted Disks: Magnetically Driven Retrograde Precession" },
-                { "time": "11:50-12:10", "description": "邓剑桥（香港中文大学）：Behaviour of Self-interacting Ultralight Bosonic Dark Matter in the Vicinity of a Black Hole" }
+                { "time": "11:30-11:50", "description": "蒋宏轩（上海交大）：3D GRMHD Simulations of Tilted Disks: Magnetically Driven Retrograde Precession" }
               ]
             }
           ]
@@ -128,7 +127,7 @@ export default defineComponent({
           "date": "12月7日 下午 主题2: 高能天体物理（主持：陈弦）",
           "events": [
             {
-              "time": "14:00-17:20",
+              "time": "14:00-17:25",
               "location": "科维理所报告厅",
               "sessions": [
                 { "time": "14:00-15:00", "description": "中国科学技术大学戴子高教授（特邀报告）：The origin, radiation and application of Fast Radio Bursts" },
@@ -136,8 +135,9 @@ export default defineComponent({
                 { "time": "15:20-15:50", "description": "茶歇" },
                 { "time": "15:50-16:50", "description": "清华大学李菂教授（特邀报告）：Eying the Blinking Universe: Galileo to Cosmic Antennae" },
                 { "time": "16:50-17:10", "description": "赵仕乾（广州大学）：Search for fast radio bursts from magnetars to reveal their possible physical origin" },
-                { "time": "17:10-17:20", "description": "Poster Intro 1: Guan Ruoyu（华中科大）：Interpreting time-integrated polarization data of gamma-ray burst prompt emission" },
-                { "time": "17:10-17:20", "description": "Poster Intro 2: Wan-Peng Sun（东北大学）：Explore the Key Features of Repeating FRB with Machine Learning" }
+                { "time": "17:10-17:25", "description": "Poster Intro 1: Guan Ruoyu（华中科大）：Interpreting time-integrated polarization data of gamma-ray burst prompt emission" },
+                { "time": "17:10-17:25", "description": "Poster Intro 2: Wan-Peng Sun（东北大学）：Explore the Key Features of Repeating FRB with Machine Learning" },
+                { "time": "17:10-17:25", "description": "Poster Intro 3: Zi-Jia Lai (Cheng Kung University): Using Cross-Correlation Functions to Constrain the Host Environment of Fast Radio Bursts"}
               ]
             }
           ]
@@ -164,7 +164,7 @@ export default defineComponent({
           "date": "12月8日 下午 主题3: 银河系与恒星（主持：张华伟）",
           "events": [
             {
-              "time": "14:00-17:00",
+              "time": "14:00-17:20",
               "location": "科维理所报告厅",
               "sessions": [
                 { "time": "14:00-15:00", "description": "云南天文台韩占文院士（特邀报告）：Theory and Observations of Binary Stars" },
@@ -173,8 +173,9 @@ export default defineComponent({
                 { "time": "15:50-16:10", "description": "Haoyang YUAN（香港大学）：Exploring the Interplay of X-ray Emission and Chemical Abundances in Planetary Nebulae" },
                 { "time": "16:10-16:30", "description": "张及晨（香港中文大学）：Observing Strategy for AMASE Project" },
                 { "time": "16:30-16:50", "description": "马铭阳（北师大）：Digitization of Astronomical Photographic Plate of China: Photometric Calibration of Single-exposure Plates and Release of Photometric Catalogs" },
-                { "time": "16:50-17:00", "description": "Poster Intro 1: 季辰阳（清华大学）：The impact of fiber cross contamination on radial velocity precision" },
-                { "time": "16:50-17:00", "description": "Poster Intro 2: 华心言（清华大学）：The Metallicity-Inclination Relation: Higher Metallicity, Higher Mutual Inclination" }
+                { "time": "16:50-17:10", "description": "邓剑桥（香港中文大学）：Behaviour of Self-interacting Ultralight Bosonic Dark Matter in the Vicinity of a Black Hole" },
+                { "time": "17:10-17:20", "description": "Poster Intro 1: 季辰阳（清华大学）：The impact of fiber cross contamination on radial velocity precision" },
+                { "time": "17:10-17:20", "description": "Poster Intro 2: 华心言（清华大学）：The Metallicity-Inclination Relation: Higher Metallicity, Higher Mutual Inclination" }
               ]
             }
           ]
@@ -193,7 +194,7 @@ export default defineComponent({
                 { "time": "11:00-11:20", "description": "马潇依（北京大学）：A Multi-Wavelength Test of the Vortex Hypothesis in the HD 34282 Protoplanetary Disk" },
                 { "time": "11:20-11:40", "description": "唐佳欣（清华大学）：RVxTESS I: Modeling Asteroseismic Signals with Simultaneous Photometry and RVs" },
                 { "time": "11:40-12:00", "description": "Yiqi Wu（Leiden University）：Constraining kinematically detected planets through gas distribution" },
-                { "time": "12:00-12:20", "description": "詹睿知（北京大学，线上）：Novel Atmospheric Dynamics Shape Inner Edge of Habitable Zone Around White Dwarfs" }
+                { "time": "12:00-12:20", "description": "詹睿知Ruizhi Zhan（北京大学，线上online）：Assessing Atmosphere on 55 Cancri e:A Non-Grey General Circulation Model Analysis" }
               ]
             }
           ]
@@ -206,12 +207,12 @@ export default defineComponent({
               "location": "科维理所报告厅",
               "sessions": [
                 { "time": "14:00-15:00", "description": "国家天文台汪景琇院士（特邀报告）：太阳磁场和太阳活动" },
-                { "time": "15:00-15:10", "description": "高宇航（北京大学）：Modeling and observation of propagating kink waves in solar coronal plumes" },
+                { "time": "15:00-15:20", "description": "高宇航（北京大学）：Modeling and observation of propagating kink waves in solar coronal plumes" },
                 { "time": "15:20-15:40", "description": "茶歇" },
                 { "time": "15:40-16:40", "description": "紫金山天文台史生才院士（特邀报告）：Submm/Terahertz Astronomy with Superconducting Detectors" },
-                { "time": "16:40-17:10", "description": "刘蓉（国家天文台）：The SiO emission in an infrared dark cloud" },
-                { "time": "17:10-17:30", "description": "陈瑶（广州大学）：A DM-free scheme for fast radio burst search in multibeam data based on EfficientNet" },
-                { "time": "17:30-17:40", "description": "闭幕式" }
+                { "time": "16:40-17:00", "description": "刘蓉（国家天文台）：The SiO emission in an infrared dark cloud" },
+                { "time": "17:00-17:20", "description": "陈瑶（广州大学）：A DM-free scheme for fast radio burst search in multibeam data based on EfficientNet" },
+                { "time": "17:20-17:30", "description": "闭幕" }
               ]
             }
           ]
